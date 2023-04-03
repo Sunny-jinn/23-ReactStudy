@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      {/* <Navigation /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:title" element={<Out />} />
