@@ -1,6 +1,11 @@
+import { Route, Routes, useParams } from "react-router-dom";
 import "./App.css";
 import "./assets/css/header.css";
+import "./assets/css/navigation.css";
 import Header from "./components/Header";
+import Home from "./pages/Home";
+import Out from "./pages/Out";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
